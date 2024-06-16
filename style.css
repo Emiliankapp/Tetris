@@ -1,0 +1,81 @@
+ /* General Styles */
+   body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Container */
+.tetris-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Canvas */
+canvas {
+    background: #000;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #d84315;
+    transform: scale(0.95);
+}
+
+/* Score Board */
+.score-board {
+    font-size: 1.5rem;
+    color: #ffeb3b;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.score-board p {
+    margin: 0;
+}
